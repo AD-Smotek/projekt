@@ -72,16 +72,15 @@ todos: Je prázdné pole, které slouží k uchování všech aktuálních úkol
 javascript 
 
 function renderTodoList() { 
-  todoList.innerHTML = ""; 
+todoList.innerHTML = ""; 
  
-  todos.forEach(function(todo, index) { 
-    const li = document.createElement("li"); 
+todos.forEach(function(todo, index) { 
+const li = document.createElement("li"); 
  
-    li.innerText = todo; 
- 
-    const deleteBtn = document.createElement("button"); 
-    deleteBtn.innerText = "Delete"; 
-    deleteBtn.classList.add("delete-btn"); 
+li.innerText = todo; 
+const deleteBtn = document.createElement("button"); 
+deleteBtn.innerText = "Delete"; 
+deleteBtn.classList.add("delete-btn"); 
  
     deleteBtn.addEventListener("click", function() { 
       todos.splice(index, 1); 
@@ -114,9 +113,9 @@ Přidá tlačítko do <li> a následně <li> do seznamu <ul>.
 javascript 
 
 deleteBtn.addEventListener("click", function() { 
-  todos.splice(index, 1); 
+todos.splice(index, 1); 
  
-  renderTodoList(); 
+renderTodoList(); 
 }); 
  
 
