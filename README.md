@@ -22,11 +22,8 @@ let todos = [];
 Co dělá: 
 
 newTodoInput: Odkazuje na HTML <input> prvek, kde uživatel zadává nový úkol. 
-
 addBtn: Odkazuje na tlačítko "Add", které přidává nový úkol do seznamu. 
-
 todoList: Odkazuje na <ul> element, kde se zobrazují všechny úkoly jako seznam. 
-
 todos: Je prázdné pole, které slouží k uchování všech aktuálních úkolů. 
 
  
@@ -53,17 +50,11 @@ addBtn.addEventListener("click", function() {
 Co dělá: 
 
 Přidává událost kliknutí (click) na tlačítko Add. 
-
 newTodoInput.value.trim(): Získá text z pole pro zadávání a odstraní mezery na začátku a na konci. 
-
 Kontroluje, zda text není prázdný (if (newTodoText !== "")). 
-
 Pokud text není prázdný: 
-
 Přidá úkol (newTodoText) do pole todos. 
-
 Vymaže vstupní pole (newTodoInput.value = ""). 
-
 Volá funkci renderTodoList() k aktualizaci seznamu úkolů. 
 
  
@@ -80,11 +71,8 @@ let todos = [];
 Co dělá: 
 
 newTodoInput: Odkazuje na HTML <input> prvek, kde uživatel zadává nový úkol. 
-
 addBtn: Odkazuje na tlačítko "Add", které přidává nový úkol do seznamu. 
-
 todoList: Odkazuje na <ul> element, kde se zobrazují všechny úkoly jako seznam. 
-
 todos: Je prázdné pole, které slouží k uchování všech aktuálních úkolů. 
 
  
@@ -122,21 +110,13 @@ function renderTodoList() {
  
 
 Co dělá: 
-
 Vymaže seznam úkolů: Nastaví todoList.innerHTML = "";, aby se seznam znovu vytvořil od nuly. 
-
 Pro každý úkol v poli todos: 
-
 Vytvoří <li> element: 
-
 Nastaví text úkolu jako obsah <li> (li.innerText = todo). 
-
 Vytvoří tlačítko Delete: 
-
 Vytvoří <button>, nastaví text "Delete" a přidá CSS třídu delete-btn. 
-
 Přidá na tlačítko událost click, která odstraní úkol z pole todos a znovu vykreslí seznam. 
-
 Přidá tlačítko do <li> a následně <li> do seznamu <ul>. 
 
  
@@ -155,19 +135,14 @@ deleteBtn.addEventListener("click", function() {
  
 
 Co dělá: 
-
 Událost click na tlačítku Delete: 
-
 Použije todos.splice(index, 1) k odstranění úkolu na dané pozici index v poli todos. 
-
 Zavolá renderTodoList() pro aktualizaci seznamu na stránce. 
 
  
 
 5. Volání funkce renderTodoList() při spuštění 
-
 javascript 
-
 renderTodoList(); 
  
 
