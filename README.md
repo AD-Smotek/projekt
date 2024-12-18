@@ -173,24 +173,17 @@ renderTodoList();
 
 Co dělá: 
 
-Zajistí, že seznam bude zobrazen i po načtení stránky. Na začátku je seznam prázdný, takže funkce jen vymaže obsah todoList (který už je prázdný). 
+Zajistí, že seznam bude zobrazen i po načtení stránky.
+Na začátku je seznam prázdný, takže funkce jen vymaže obsah todoList (který už je prázdný). 
 
  
-
 Shrnutí: 
-
 Hlavní funkce: 
-
 addBtn.addEventListener: Přidává nový úkol do seznamu. 
-
 renderTodoList: Aktualizuje seznam úkolů na stránce. 
-
 deleteBtn.addEventListener: Odstraňuje úkol z pole todos. 
-
 Klíčová logika: 
-
 Všechna data o úkolech jsou uložena v poli todos. 
-
 Zobrazení seznamu je dynamicky generováno na základě obsahu todos pomocí 
 
  
