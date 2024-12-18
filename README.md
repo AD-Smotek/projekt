@@ -5,7 +5,8 @@ a chtěl jsem nějaký nádech toho jak to funguje.
 Hlavně mi pomohl Matěj vít bez toho bych to nezvládl
 a taky mi přišlo lepší to dělat s kamáradem než s videem,
 protože mi to mohl vysvětlit a pochopil jsem to docela dobře.
-Z začátku jsem moc nechápal ale postupem času jsem pochopil jak co funguje,
+Z začátku jsem moc nechápal ale postupem času jsem pochopil jak co funguje
+a mám tady vysvětlení jak co funguje v tom kódu.
 
 
 
