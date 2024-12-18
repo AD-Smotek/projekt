@@ -9,7 +9,6 @@ Z začátku jsem moc nechápal ale postupem času jsem pochopil jak co funguje
 a mám tady vysvětlení jak co funguje v tom kódu.
 
 
-
 1. Deklarace proměnných 
 
 javascript 
@@ -25,10 +24,6 @@ newTodoInput: Odkazuje na HTML <input> prvek, kde uživatel zadává nový úkol
 addBtn: Odkazuje na tlačítko "Add", které přidává nový úkol do seznamu. 
 todoList: Odkazuje na <ul> element, kde se zobrazují všechny úkoly jako seznam. 
 todos: Je prázdné pole, které slouží k uchování všech aktuálních úkolů. 
-
- 
-
- 
 
 2. Přidání nového úkolu 
 
@@ -57,8 +52,6 @@ Přidá úkol (newTodoText) do pole todos.
 Vymaže vstupní pole (newTodoInput.value = ""). 
 Volá funkci renderTodoList() k aktualizaci seznamu úkolů. 
 
- 
-
 1. Deklarace proměnných 
 
 javascript 
@@ -69,17 +62,10 @@ const todoList = document.getElementById("todo-list");
 let todos = []; 
 
 Co dělá: 
-
 newTodoInput: Odkazuje na HTML <input> prvek, kde uživatel zadává nový úkol. 
 addBtn: Odkazuje na tlačítko "Add", které přidává nový úkol do seznamu. 
 todoList: Odkazuje na <ul> element, kde se zobrazují všechny úkoly jako seznam. 
 todos: Je prázdné pole, které slouží k uchování všech aktuálních úkolů. 
-
- 
-
- 
-
- 
 
 3. Vykreslení seznamu úkolů 
 
